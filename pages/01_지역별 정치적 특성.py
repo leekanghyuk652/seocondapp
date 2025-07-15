@@ -12,7 +12,7 @@ st.write("업로드된 데이터를 기반으로 Folium 지도를 생성하고 �
 # 데이터 불러오기
 @st.cache_data
 def load_data():
-    df = pd.read_csv("global_prosperity_regions_politics.csv")
+    df = pd.read_csv("global_prosperity_with_coords.csv")
     return df
 
 df = load_data()
