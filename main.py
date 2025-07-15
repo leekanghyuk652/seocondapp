@@ -1,3 +1,3 @@
 import streamlit as st
-st.title('🌎전 세계 정치 유형과 특성')
+st.title('🌎정치 이념과 경제,사회 발전 간 관계')
 import streamlit as st
