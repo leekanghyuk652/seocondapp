@@ -31,7 +31,7 @@ if "latitude" in df.columns and "longitude" in df.columns:
         for col in df.columns:
             popup_text += f"<b>{col}</b>: {row[col]}<br>"
         folium.CircleMarker(
-            location=[row["Latitude"], row["Longitude"]],
+            location=[row["latitude"], row["longitude"]],
             radius=5,
             color="blue",
             fill=True,
