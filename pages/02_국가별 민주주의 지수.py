@@ -11,7 +11,7 @@ st.write("국가별 민주주의 점수를 Folium을 이용해 지도 위에 시
 # CSV 불러오기
 @st.cache_data
 def load_data():
-    df = pd.read_csv("democracy-index-eiu.csv")
+    df = pd.read_csv("democracy_index_with_coords.csv")
     return df
 
 df = load_data()
