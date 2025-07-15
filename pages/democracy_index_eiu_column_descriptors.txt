@@ -1,5 +1,0 @@
-Column Descriptors:
-Entity: Name of the country or territory
-Code: Country code (ISO 3166-1 alpha-3)
-Year: Year of the observation (2006-2023)
-Democracy score: The Democracy Index score (0-10)
