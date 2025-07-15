@@ -25,7 +25,7 @@ with st.expander("📄 데이터 미리보기"):
 m = folium.Map(location=[20, 0], zoom_start=2)
 
 # 좌표 열이 있는 경우 표시 (위도/경도 또는 나라별 중심좌표 필요)
-if "Latitude" in df.columns and "Longitude" in df.columns:
+if "latitude" in df.columns and "longitude" in df.columns:
     for _, row in df.iterrows():
         popup_text = ""
         for col in df.columns:
